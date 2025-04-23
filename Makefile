@@ -3,7 +3,7 @@ CFLAGS = -Wall-Wextra
 
 all: main
 
-main: main.c
+main: main.c\
       $(CC) $(CFLAGS) main.c -o main
 
 clean:
